@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>09:JT Second Light(Per fragment)</title>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="400" height="400">
+    Please use a browser that supports "canvas"
+    </canvas>
+
+
+    <script src="../lib/webgl-utils.js"></script>
+    <script src="../lib/webgl-debug.js"></script>
+    <script src="../lib/cuon-utils.js"></script>
+    <script src="../lib/cuon-matrix.js"></script>
+		<script src="materials_Ayerdi.js"></script>
+		<script src="lights-JT.js"></script>
+    <script src="../lib/cuon-matrix-mod.js"></script>
+    <script src="JTSecondLight_perFragment09.js"></script>
+
+
+    <p>
+    <b>
+      <font size="6" color="darkorange" style="font-family:Arial">
+        Welcome to the Zoo!  
+      </font>
+    </b>
+    </p>
+    <div style = "width:40em; height: 36em; padding:10px; border: 5px solid green; font-family:Arial">
+       Welcome to the Zoo! In the Zoo you can find Rafi the Bunny. Rafi has a head, a tummy, two ears, hands, and feet. Henry loves carrots so he always keeps some near by. Currently, Henry has two carrots next to him.
+       <br><br>
+       Functionality: <br>
+       Up-arrow key = move upwards <br>
+       Down-arrow key = move downwards <br>
+       Right-arrow key = move to the right <br>
+       Left-arrow key = move to the left <br>
+       "w" key = move forwards <br>
+       "s" key = move backwards <br>
+       "d" key = rotate to the right <br>
+       "a" key = rotate to the left <br>
+       "+" key = rotate upwards <br>
+       "-" key = rotate downwards <br>
+       <br>
+       The Zoo turns into a disco at night. Press the "m" key to watch the disco!
+       <br><br>
+       Lighting:<br>
+       "p" key = turn off and on headlight <br>
+       "o" key = turn off and on overhead light <br>
+       "l" key = switches between lighting methods 
+       "m" key = switches between shading methods
+       "1" key = adjust red ambient<br>
+       "2" key = adjust green ambient<br>
+       "3" key = adjust blue ambient<br>
+       "4" key = adjust red diffuse<br>
+       "5" key = adjust green diffuse<br>
+       "6" key = adjust blue diffuse<br>
+       "7" key = adjust red specular<br>
+       "8" key = adjust green specular<br>
+       "9" key = adjust blue specular <br>
+       In order to "shift" the way you are adjusting just click the "shift" key!
+     </div>
+  </body>
+</html>
